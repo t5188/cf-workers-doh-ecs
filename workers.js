@@ -18,7 +18,7 @@ const APPL_DNS_JSON = 'application/dns-json'
 //   default:   https://cfworker.user.workers.dev/resolve?YYYYY
 //   modified:  https://cfworker.user.workers.dev/masked-resolve?YYYYY
 const REQ_QUERY_PATHNAME = '/resolution'
-const REQ_RESOLVE_PATHNAME = '/settle'
+const REQ_RESOLVE_PATHNAME = '/resolve'
 
 // developers.cloudflare.com/workers/runtime-apis/fetch-event/#syntax-module-worker
 export default {
